@@ -1,0 +1,28 @@
+.line-1 {
+    background-color: #ff7c7c;
+}
+
+.line-2 {
+    background-color: #C0C0FF;
+}
+
+.line-3 {
+    background-color: #9de89d;
+}
+
+.line-4 {
+    background-color: #ffff6d;
+}
+
+.line-5 {
+    background-color: #d451bf;
+}
+
+.title-line {
+    border-bottom: 2px solid;
+}
+
+.test-dark-blue {
+    color: #0019d6;
+    background-color: rgb(255 255 255 / 50%);
+}

@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-sm-12 text-center p-3">
+            <h1>Список ИБП</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 text-left">
+            <div class="d-flex flex-row justify-content-center flex-wrap">
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 border border-dark rounded shadow-lg m-4 p-2 line-1">
+                    <div class="p-3">
+                        <h2 class="title-line">Линия-1</h2>
+                    </div>
+                    <div class="list-group">
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.2.64.203">Площадь Ленина</a>
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.14.64.203">Выборская</a>
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.16.64.203">Площадь Мужества</a>
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.20.64.203">Девяткино</a>
+                        <br>
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.8.64.220">Диспетчеры</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 border border-dark rounded shadow-lg m-4 p-2 line-2">
+                    <div class="p-3">
+                        <h2 class="title-line" >Линия-2</h2>
+                    </div>
+                    <div class="list-group" id="myList" role="tablist">
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.32.64.203">Московская</a>
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.43.64.203">Пионерская</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 border border-dark rounded shadow-lg m-4 p-2 line-3">
+                    <div class="p-3">
+                        <h2 class="title-line" >Линия-3</h2>
+                    </div>
+                    <div class="list-group" id="myList" role="tablist">
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.61.64.203">Обухово</a>
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.66.64.203">Маяковская</a>
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.71.64.203">Зенит</a>
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.72.64.203">Э/Д Невское</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 border border-dark rounded shadow-lg m-4 p-2 line-4">
+                    <div class="p-3">
+                        <h2 class="title-line" >Линия-4</h2>
+                    </div>
+                    <div class="list-group" id="myList" role="tablist">
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.84.64.203">Новочеркасская</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 border border-dark rounded shadow-lg m-4 p-2 line-5">
+                    <div class="p-3">
+                        <h2 class="title-line" >Линия-5</h2>
+                    </div>
+                    <div class="list-group" id="myList" role="tablist">
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.117.64.203">Проспект Славы</a>
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.114.64.203">Волковская</a>
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.88.64.203">Садовая</a>
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.90.64.203">Спортивная</a>
+                        <a class="list-group-item list-group-item-action test-dark-blue" href="http://10.120.64.203">Э/Д Южное</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
